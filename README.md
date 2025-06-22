@@ -1,11 +1,11 @@
-# Multi-Modal Meme Sentiment Classification
+# Multi-Model Meme Sentiment Classification
 
 
-> A multi-modal machine learning system that classifies meme sentiment using an ensemble of image and text-based models, with a user-friendly Flask web interface for predictions.
+> A multi-model machine learning system that classifies meme sentiment using an ensemble of image and text-based models, with a user-friendly Flask web interface for predictions.
 
 ## Description
 
-This project implements a multi-modal sentiment classification system for internet memes. The goal is to determine whether a meme is positive, negative, or neutral by analyzing both its visual content and the embedded text. This is achieved by training an ensemble of six different machine learning models—three for image classification and three for text classification—and combining their predictions through a majority vote.
+This project implements a multi-model sentiment classification system for internet memes. The goal is to determine whether a meme is positive, negative, or neutral by analyzing both its visual content and the embedded text. This is achieved by training an ensemble of six different machine learning models—three for image classification and three for text classification—and combining their predictions through a majority vote.
 
 The project leverages `scikit-learn` for model training, `scikit-image` and `Pillow` for image preprocessing, and `easyocr` for text extraction. Finally, the trained models are deployed in a user-friendly **Flask web application**, allowing users to upload a meme and receive a sentiment prediction.
 
